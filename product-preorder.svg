@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Amino mix bottle</title>
+  <desc id="desc">A clean sports drink bottle with green and red label.</desc>
+  <rect width="640" height="480" fill="#edf7f1"/>
+  <rect x="70" y="348" width="500" height="34" fill="#0b0d0f"/>
+  <rect x="260" y="68" width="120" height="54" rx="10" fill="#17191c"/>
+  <rect x="236" y="112" width="168" height="266" rx="34" fill="#ffffff" stroke="#17191c" stroke-width="8"/>
+  <rect x="252" y="176" width="136" height="102" fill="#00a66a"/>
+  <rect x="252" y="278" width="136" height="18" fill="#d8242f"/>
+  <text x="320" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="33" font-weight="900" fill="#ffffff">AMINO</text>
+  <text x="320" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="900" fill="#17191c">SESSION MIX</text>
+  <path d="M120 124h86v28h-86zM434 124h86v28h-86z" fill="#d8242f"/>
+  <path d="M112 164h70v18h-70zM458 164h70v18h-70z" fill="#00a66a"/>
+</svg>

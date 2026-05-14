@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Protein blend package</title>
+  <desc id="desc">Black and white supplement pouch with red and green accents.</desc>
+  <rect width="640" height="480" fill="#eef1ec"/>
+  <rect x="44" y="56" width="552" height="52" fill="#0b0d0f"/>
+  <rect x="64" y="84" width="512" height="340" rx="18" fill="#ffffff"/>
+  <path d="M130 84h380l-28 340H158z" fill="#f9faf8"/>
+  <rect x="158" y="152" width="324" height="90" fill="#0b0d0f"/>
+  <rect x="158" y="242" width="324" height="16" fill="#d8242f"/>
+  <rect x="158" y="258" width="324" height="16" fill="#00a66a"/>
+  <text x="320" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#ffffff">imamu.</text>
+  <text x="320" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#17191c">PROTEIN</text>
+  <text x="320" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#646a70">DAILY BLEND</text>
+  <circle cx="112" cy="354" r="42" fill="#d8242f"/>
+  <circle cx="528" cy="134" r="34" fill="#00a66a"/>
+</svg>

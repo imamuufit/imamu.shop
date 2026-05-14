@@ -1,0 +1,178 @@
+{
+  "store": {
+    "currency": "JPY",
+    "taxNote": "税込",
+    "lineReserveUrl": "https://line.me/R/ti/p/@imamu",
+    "reserveMessagePrefix": "imamu. STORE 取り置き希望です。"
+  },
+  "categories": [
+    "サプリメント",
+    "アパレル",
+    "トレーニングギア",
+    "チケット・回数券",
+    "予約販売"
+  ],
+  "products": [
+    {
+      "id": "daily-protein-blend",
+      "name": "imamu. Daily Protein Blend",
+      "category": "サプリメント",
+      "price": 3980,
+      "stockStatus": "in_stock",
+      "stockLabel": "在庫あり",
+      "image": "./assets/product-protein.svg",
+      "shortDescription": "毎日のたんぱく質補給を続けやすい、すっきり飲みやすいプロテイン。",
+      "description": "トレーニング日も休養日も続けやすい味わいを意識した、imamu. セレクトのプロテインです。食事だけでは不足しやすいたんぱく質を、日々の習慣として取り入れたい方に向いています。",
+      "recommendedFor": [
+        "トレーニング後の栄養補給を整えたい方",
+        "朝食や間食でたんぱく質を足したい方",
+        "甘さ控えめで続けやすい商品を選びたい方"
+      ],
+      "usage": "1回あたり付属スプーン目安量を水または牛乳などに溶かしてお召し上がりください。摂取量は食生活に合わせて調整してください。",
+      "notes": [
+        "食品として、バランスのよい食生活の補助としてご利用ください。",
+        "原材料表示を確認し、アレルギーをお持ちの方はご注意ください。"
+      ],
+      "isSupplement": true,
+      "paymentUrl": "https://example.com/payment/daily-protein-blend"
+    },
+    {
+      "id": "amino-session-mix",
+      "name": "Amino Session Mix",
+      "category": "サプリメント",
+      "price": 2480,
+      "stockStatus": "low_stock",
+      "stockLabel": "残りわずか",
+      "image": "./assets/product-amino.svg",
+      "shortDescription": "トレーニング前後の水分補給に合わせやすい、軽い飲み口のアミノ酸ミックス。",
+      "description": "ワークアウトの前後やセッション中に取り入れやすい、さっぱり系のアミノ酸ミックスです。味の重さを抑え、日々のトレーニングバッグに入れやすいサイズ感にしています。",
+      "recommendedFor": [
+        "トレーニング中のドリンクを整えたい方",
+        "甘すぎないサプリメントを探している方",
+        "持ち運びしやすい商品を選びたい方"
+      ],
+      "usage": "水に溶かし、運動量や食事内容に合わせてお召し上がりください。詳しい目安は商品ラベルをご確認ください。",
+      "notes": [
+        "食品として、日々の食事を基本にご利用ください。",
+        "体質や体調に合わない場合は使用を中止してください。"
+      ],
+      "isSupplement": true,
+      "paymentUrl": "https://example.com/payment/amino-session-mix"
+    },
+    {
+      "id": "heavy-cotton-tee",
+      "name": "imamu. Heavy Cotton Tee",
+      "category": "アパレル",
+      "price": 4200,
+      "stockStatus": "in_stock",
+      "stockLabel": "在庫あり",
+      "image": "./assets/product-tee.svg",
+      "shortDescription": "ジムでも街でも着やすい、厚手コットンのオリジナルTシャツ。",
+      "description": "バーベルのある空間にも普段着にも合わせやすい、imamu. ロゴ入りのヘビーウェイトTシャツです。肩まわりにゆとりを持たせ、トレーニング後にも着やすいシルエットにしました。",
+      "recommendedFor": [
+        "ジム帰りにも着られるTシャツを探している方",
+        "厚手で透けにくい生地が好きな方",
+        "imamu. の雰囲気を日常でも楽しみたい方"
+      ],
+      "usage": "通常の衣類として着用してください。洗濯時はプリント面を裏返すと風合いを保ちやすくなります。",
+      "notes": [
+        "サイズにより在庫数が異なります。",
+        "洗濯表示に従ってお手入れしてください。"
+      ],
+      "isSupplement": false,
+      "paymentUrl": "https://example.com/payment/heavy-cotton-tee"
+    },
+    {
+      "id": "wrist-wraps-redline",
+      "name": "Redline Wrist Wraps",
+      "category": "トレーニングギア",
+      "price": 3200,
+      "stockStatus": "in_stock",
+      "stockLabel": "在庫あり",
+      "image": "./assets/product-wraps.svg",
+      "shortDescription": "高重量ベンチやプレス種目を支える、しっかりめのリストラップ。",
+      "description": "手首の固定感を出したいプレス系トレーニング向けのリストラップです。黒地に赤いラインを入れ、imamu. らしい力強い表情にまとめています。",
+      "recommendedFor": [
+        "ベンチプレスやショルダープレスに取り組む方",
+        "手首まわりの安定感を重視したい方",
+        "ジムバッグに入れやすい小物を探している方"
+      ],
+      "usage": "手首に巻き、締め付けすぎない範囲で固定してください。違和感がある場合は使用を中止してください。",
+      "notes": [
+        "使用前に縫製やベルクロ部分に異常がないか確認してください。",
+        "本品はけがの防止を保証するものではありません。"
+      ],
+      "isSupplement": false,
+      "paymentUrl": "https://example.com/payment/wrist-wraps-redline"
+    },
+    {
+      "id": "lifting-straps-core",
+      "name": "Core Lifting Straps",
+      "category": "トレーニングギア",
+      "price": 2800,
+      "stockStatus": "sold_out",
+      "stockLabel": "入荷待ち",
+      "image": "./assets/product-straps.svg",
+      "shortDescription": "デッドリフトやローイング種目で使いやすい、ベーシックなリフティングストラップ。",
+      "description": "引く種目で握り込みを補助したい方向けのリフティングストラップです。使い方がシンプルで、初めてのトレーニングギアとしても取り入れやすい仕様です。",
+      "recommendedFor": [
+        "デッドリフトやローイング種目を行う方",
+        "握力が先に疲れやすい方",
+        "シンプルなトレーニングギアを選びたい方"
+      ],
+      "usage": "バーに巻き付け、緩みや痛みがないことを確認してから使用してください。初回はスタッフの案内を受けることをおすすめします。",
+      "notes": [
+        "使用前に破れやほつれがないか確認してください。",
+        "高重量での使用はフォーム確認を行ったうえで取り入れてください。"
+      ],
+      "isSupplement": false,
+      "paymentUrl": null
+    },
+    {
+      "id": "pt-ticket-4",
+      "name": "パーソナルトレーニング 4回券",
+      "category": "チケット・回数券",
+      "price": 35200,
+      "stockStatus": "ticket",
+      "stockLabel": "販売中",
+      "image": "./assets/product-ticket.svg",
+      "shortDescription": "フォーム改善や習慣づくりに使いやすい、imamu. の4回チケット。",
+      "description": "パーソナルトレーニングを計画的に続けたい方向けの4回券です。目標や生活リズムに合わせて、セッションごとに内容を調整します。",
+      "recommendedFor": [
+        "トレーニング習慣を作りたい方",
+        "フォームを定期的に確認したい方",
+        "短期集中で身体づくりを進めたい方"
+      ],
+      "usage": "購入後、LINEまたは店頭で初回利用日をご相談ください。有効期限や利用条件は購入時の案内をご確認ください。",
+      "notes": [
+        "予約枠には限りがあります。",
+        "払い戻し条件は返品・交換ポリシーをご確認ください。"
+      ],
+      "isSupplement": false,
+      "paymentUrl": "https://example.com/payment/pt-ticket-4"
+    },
+    {
+      "id": "preorder-power-tee-2026",
+      "name": "Power Tee 2026 予約販売",
+      "category": "予約販売",
+      "price": 4600,
+      "stockStatus": "pre_order",
+      "stockLabel": "予約受付中",
+      "image": "./assets/product-preorder.svg",
+      "shortDescription": "次回生産分を先に確保できる、限定カラーの予約販売Tシャツ。",
+      "description": "次回入荷分を事前に確保できる、imamu. オリジナルTシャツの予約販売です。受け取り時期は生産状況により前後する場合があります。",
+      "recommendedFor": [
+        "限定カラーを確保したい方",
+        "入荷待ちでもよい方",
+        "ジムの雰囲気を楽しめるウェアを探している方"
+      ],
+      "usage": "予約後、入荷時期が確定し次第LINEまたはメールでご案内します。",
+      "notes": [
+        "予約販売のため、お渡しまで時間がかかります。",
+        "生産状況により仕様や納期が変更になる場合があります。"
+      ],
+      "isSupplement": false,
+      "paymentUrl": "https://example.com/payment/preorder-power-tee-2026"
+    }
+  ]
+}

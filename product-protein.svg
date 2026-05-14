@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Pre-order power tee</title>
+  <desc id="desc">Limited red T-shirt pre-order visual with clean store graphics.</desc>
+  <rect width="640" height="480" fill="#f0f3ef"/>
+  <path d="M214 102l58-34h96l58 34 88 28-34 90-62-18v190H222V202l-62 18-34-90z" fill="#d8242f"/>
+  <path d="M272 68c14 22 82 22 96 0l28 16c-28 48-124 48-152 0z" fill="#b01823"/>
+  <rect x="254" y="194" width="132" height="44" fill="#ffffff"/>
+  <rect x="254" y="238" width="132" height="10" fill="#0b0d0f"/>
+  <rect x="254" y="248" width="132" height="10" fill="#00a66a"/>
+  <text x="320" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#0b0d0f">POWER</text>
+  <text x="320" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#ffffff">PRE ORDER</text>
+  <rect x="88" y="78" width="116" height="28" fill="#0b0d0f"/>
+  <rect x="436" y="374" width="116" height="28" fill="#00a66a"/>
+</svg>

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>imamu. STORE</title>
+    <meta
+      name="description"
+      content="トレーニングと暮らしを整える、imamu.公式セレクト。"
+    >
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-mark" href="./" aria-label="imamu. STORE ホーム">
+        <span class="brand-dot"></span>
+        <span>imamu. STORE</span>
+      </a>
+      <nav class="header-nav" aria-label="補助ナビゲーション">
+        <a href="./legal.html">特商法表記</a>
+        <a href="./returns.html">返品・交換</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="store-shell" aria-labelledby="storeTitle">
+        <div class="store-intro">
+          <p class="kicker">PERSONAL GYM IMAMU.</p>
+          <h1 id="storeTitle">imamu. STORE</h1>
+          <p class="lead">トレーニングと暮らしを整える、imamu.公式セレクト。</p>
+        </div>
+
+        <div class="store-meter" aria-label="ストア情報">
+          <span>LINE取り置き</span>
+          <strong>店頭受け取り対応</strong>
+        </div>
+
+        <div class="store-controls">
+          <label class="search-box" for="searchInput">
+            <span>商品検索</span>
+            <input id="searchInput" type="search" placeholder="プロテイン、Tシャツ、回数券">
+          </label>
+          <div id="categoryFilters" class="category-filters" aria-label="カテゴリ"></div>
+        </div>
+      </section>
+
+      <section class="supplement-note" aria-label="サプリメントに関する注意">
+        <strong>サプリメントについて</strong>
+        <span>本ページの商品は食品です。疾病の診断、治療、予防を目的としたものではありません。</span>
+      </section>
+
+      <section class="catalog-section" aria-labelledby="catalogTitle">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">CATALOG</p>
+            <h2 id="catalogTitle">商品一覧</h2>
+          </div>
+          <p id="resultCount" class="result-count"></p>
+        </div>
+
+        <div id="productGrid" class="product-grid" aria-live="polite"></div>
+        <p id="emptyState" class="empty-state" hidden>該当する商品がありません。</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>imamu. STORE</p>
+      <p>決済は各商品の外部リンク先で行われます。</p>
+    </footer>
+
+    <div id="productModal" class="modal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="閉じる">×</button>
+
+        <div class="modal-media">
+          <img id="modalImage" alt="">
+          <span id="modalStatus" class="stock-badge"></span>
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-title-row">
+            <span id="modalCategory" class="category-pill"></span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalPrice" class="modal-price"></p>
+          </div>
+
+          <div class="detail-block">
+            <h3>商品説明</h3>
+            <p id="modalDescription"></p>
+          </div>
+
+          <div class="detail-block">
+            <h3>おすすめの方</h3>
+            <ul id="modalRecommended"></ul>
+          </div>
+
+          <div class="detail-block">
+            <h3>使用目安</h3>
+            <p id="modalUsage"></p>
+          </div>
+
+          <div class="detail-block">
+            <h3>注意事項</h3>
+            <ul id="modalNotes"></ul>
+          </div>
+
+          <div class="modal-actions">
+            <a id="lineReserveButton" class="action-button line-button" href="#" target="_blank" rel="noopener">
+              LINEで取り置きする
+            </a>
+            <a id="paymentButton" class="action-button payment-button" href="#" target="_blank" rel="noopener">
+              外部決済リンクへ
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
